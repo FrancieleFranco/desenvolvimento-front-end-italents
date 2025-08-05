@@ -6,7 +6,7 @@ Este projeto foi desenvolvido como parte da **Entrega 2** do curso [Desenvolvime
 ## Descrição
 
 O objetivo da atividade foi criar uma estrutura completa utilizando **HTML5 com semântica**.
-O site fictício "Café Encanto" possui duas páginas:
+O site fictício "Café Alice" possui duas páginas:
 
 - Página "Sobre" com a **história da cafeteria** e um **contato fictício**.
 
