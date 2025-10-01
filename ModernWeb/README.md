@@ -1,4 +1,4 @@
-# Projeto 05 - Endereço Já
+# Projeto 06 - Endereço Já
 
 
 Este projeto foi desenvolvido como parte da **Entrega 1** do curso [Desenvolvimento Front-End com React - iTalents](https://italents.com.br).
@@ -14,7 +14,16 @@ O site fictício "Endereço Já" possui uma página principal com formulário pa
 - Uso de tags semânticas: `<header>`, `<main>`, `<section>`, `<footer>`, etc
 - Formulário de entrada de dados com `<label>` e `<input>`
 - Estrutura pronta para receber CSS e JavaScript nas próximas entregas
+-  Textos: tamanho, cor e alinhamento  
+- Box Model: padding, margin, border e border-radius  
+- Variáveis CSS e seletores (classes e IDs)  
+- Pseudo-elemento (`::before`)  
+- Gradientes no header e footer  
+- Flexbox para centralização  
+- Media Queries para responsividade  
+- Estilização prática: botões, inputs, cards e hover
 
 ## Tecnologias utilizadas
 
 - HTML5
+- CSS
