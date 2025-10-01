@@ -1,7 +1,7 @@
-# Projeto 02 - Site da Cafeteria Fictícia "Café Alice"
+# Projeto 04 - Site da Cafeteria Fictícia "Café Alice"
 ![Demonstração Café Alice](assets/cafe-alice.gif)
 
-Este projeto foi desenvolvido como parte da **Entrega 2** do curso [Desenvolvimento Front-End com React - iTalents](https://italents.com.br).
+Este projeto foi desenvolvido como parte da **Entrega 3** do curso [Desenvolvimento Front-End com React - iTalents](https://italents.com.br).
 
 ## Descrição
 
