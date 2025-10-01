@@ -1,6 +1,7 @@
 # Projeto 08 - Endereço Já
+![Demonstração CEndereço Já](../ModernWeb//endereco-ja/assets/endrecoja%20.gif)
 
-Este projeto foi desenvolvido como parte da **Entrega 1** do curso [Desenvolvimento Front-End com React - iTalents](https://italents.com.br).
+Este projeto foi desenvolvido como parte da **Entrega 4** do curso [Desenvolvimento Front-End com React - iTalents](https://italents.com.br).
 
 ## Descrição
 
