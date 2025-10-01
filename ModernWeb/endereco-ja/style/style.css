@@ -3,7 +3,7 @@
   --secondary-color: #f0f0f0;
   --button-color: #007BFF;
   --button-hover-color: #0056b3;
-  --text-color: #333;;
+  --text-color: #333;
 }
 
 body {
@@ -15,14 +15,13 @@ body {
   line-height: 1.5;
 }
 
-
-header, footer {
+header,
+footer {
   background: linear-gradient(90deg, var(--primary-color), var(--button-color));
   color: white;
   text-align: center;
   padding: 1rem;
 }
-
 
 main {
   padding: 2rem;
@@ -31,18 +30,22 @@ main {
   align-items: center;
 }
 
-form-section {
-  margin-bottom: 2rem;
-  width: 100%;
-  max-width: 400px;
+
+.form-section,
+.result-section {
+  width: 400px;
+  max-width: 100%;
+  margin: 1rem auto;
   display: flex;
   flex-direction: column;
-  align-items: center;
+  align-items: stretch;
+  box-sizing: border-box;
 }
 
 input[type="text"],
-button {
-  width: 100%;           
+button,
+.result-section {
+  width: 100%;
   padding: 0.5rem;
   font-size: 1rem;
   border-radius: 4px;
@@ -50,13 +53,12 @@ button {
   box-sizing: border-box;
 }
 
-
 button {
   background-color: var(--button-color);
   color: white;
-  border: none;         
+  border: none;
   cursor: pointer;
-  margin-top: 0.5rem;    
+  margin-top: 0.5rem;
   transition: background-color 0.3s;
 }
 
@@ -64,36 +66,39 @@ button:hover {
   background-color: var(--button-hover-color);
 }
 
-
-.result-section::before {
-  position: absolute;
-  top: 1rem;
-  left: 1rem;
-  font-size: 1.2rem;
+.result-section {
+  background-color: white;
+  border-radius: 8px;
+  padding: 0.5rem;
+  white-space: pre-line;
+  display: none;
+  color: var(--text-color);
+  font-size: larger;
 }
+
 
 @media (max-width: 500px) {
   main {
     padding: 1rem;
   }
 
-  .result-section {
-    padding: 0.8rem;
-  }
-
-  button, input[type="text"] {
+  .form-section,
+  .result-section,
+  input[type="text"],
+  button {
     width: 100%;
   }
 }
 
+
 footer {
-  position: fixed;      
-  bottom: 0;            
-  left: 0;              
-  width: 100%;          
+  position: fixed;
+  bottom: 0;
+  left: 0;
+  width: 100%;
   background: linear-gradient(90deg, var(--primary-color), var(--button-color));
   color: white;
   text-align: center;
   padding: 1rem;
-  z-index: 1000;      
+  z-index: 1000;
 }

@@ -1,11 +1,15 @@
-# Projeto 06 - Endereço Já
+# Projeto 08 - Endereço Já
 
 Este projeto foi desenvolvido como parte da **Entrega 1** do curso [Desenvolvimento Front-End com React - iTalents](https://italents.com.br).
 
 ## Descrição
 
-O objetivo da atividade foi criar uma estrutura completa utilizando **HTML5 com semântica**.  
-O site fictício "Endereço Já" possui uma página principal com formulário para consulta de CEP e seção para exibir resultados.
+O site possui:
+
+- Formulário de entrada de CEP com validação.
+- Exibição dinâmica do resultado apenas quando o usuário realiza a consulta.
+- Resultado exibido em uma seção com **borda vermelha** e largura igual ao input e botão.
+- Layout responsivo e acessível.
 
 ## Conceitos aplicados
 
@@ -21,6 +25,11 @@ O site fictício "Endereço Já" possui uma página principal com formulário pa
 - Flexbox para centralização
 - Media Queries para responsividade
 - Estilização prática: botões, inputs, cards e hover
+- Interatividade com JavaScript:
+  - Validação de CEP.
+  - Limpeza de mensagens ao digitar.
+  - Exibição dinâmica do resultado ou erro.
+- Consumo de API pública (ViaCEP) para retorno de dados reais.
 
   ## Funcionalidades implementadas nesta entrega
 
@@ -33,3 +42,4 @@ O site fictício "Endereço Já" possui uma página principal com formulário pa
 - HTML5
 - CSS
 - Javascript
+-  API pública ViaCEP
