@@ -1,4 +1,4 @@
-# pet-catalog
+# Projeto 12 pet-catalog
 ![Tela do Projeto - Pet Catalago](src/assets/images/project-pet.png)
 
 Este projeto foi desenvolvido como parte da Entrega 4 do curso Desenvolvimento Front-End com React - iTalents.
