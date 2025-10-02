@@ -1,0 +1,11 @@
+.total-expenses{
+  font-size: 1.5rem; 
+  font-weight: bold; 
+  color: #004d40;     
+  background-color: #A5D6A7; 
+  padding: 10px 15px; 
+  border-radius: 5px; 
+  text-align: center; 
+  box-shadow: 0px 4px 6px rgba(0, 0, 0, 0.1); 
+  margin: 20px 100px; 
+}
