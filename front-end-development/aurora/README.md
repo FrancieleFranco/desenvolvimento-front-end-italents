@@ -1,5 +1,5 @@
 # Projeto 13 - Aurora Dashboard
-![Tela do Projeto - Aurora Dashboard](src/assets/images/project-aurora.png)
+![Tela do Projeto - Aurora Dashboard](src/assets/images/aurora.jpg)
 
 Este projeto foi desenvolvido como parte da **Entrega 1** do curso Desenvolvimento Front-End com React - iTalents.
 
