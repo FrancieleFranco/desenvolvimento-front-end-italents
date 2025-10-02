@@ -3,9 +3,9 @@
 O aplicativo Shopping React é uma lista de compras que permite adicionar itens com quantidade, exibir mensagens de alerta quando os campos obrigatórios não estão preenchidos e limpar a lista de compras.
 
 
-![Tela do Projeto - Lista de Compra](.../../shopping/src/images/img.png)
+![Tela do Projeto - Lista de Compra](src/images/img.png)
 
-![Tela do Projeto - Lista de Compra](.../../shopping/src/images/img1.png)
+![Tela do Projeto - Lista de Compra](src/images/img1.png)
 
 ## Funcionalidades
 
