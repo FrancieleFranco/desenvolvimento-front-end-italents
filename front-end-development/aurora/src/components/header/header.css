@@ -1,0 +1,26 @@
+.header {
+  width: 100vw; /* ocupa toda a largura da tela */
+  padding: 2rem;
+  text-align: center;
+  color: #fff;
+  background: linear-gradient(135deg, #6a11cb, #2575fc);
+  box-sizing: border-box;
+}
+
+.header h1 {
+  font-size: 2rem;
+  margin: 0;
+}
+
+.header p {
+  font-size: 1.2rem;
+  margin-top: 0.5rem;
+}
+
+@media (max-width: 600px) {
+  .header {
+    padding: 1rem;
+  }
+  .header h1 { font-size: 1.5rem; }
+  .header p { font-size: 1rem; }
+}
