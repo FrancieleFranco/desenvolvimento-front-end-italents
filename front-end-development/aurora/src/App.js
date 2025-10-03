@@ -1,21 +1,16 @@
 import './App.css';
 import React from "react";
-import Header from "./components/header/Header";
-import Message from "./components/message/message";
-import ThemeSelector from "./components/ThemeSelector/ThemeSelector";
+import { BrowserRouter as Router } from "react-router-dom";
+import AppRoutes from "./routes/AppRoutes";
+import "./App.css";
 
 function App() {
   return (
-     <div className="app">
-      <Header>
-        <h1>Aurora Dashboard</h1>
-      </Header>
-
-      <Message text="Bem-vindo ao painel interativo do Aurora!" />
-
-      <ThemeSelector />
-    </div>
+      <Router>
+      <AppRoutes />
+    </Router>
   );
 }
+
 
 export default App;

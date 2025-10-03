@@ -37,3 +37,9 @@
     font-size: 0.9rem;
   }
 }
+
+.theme-message {
+  margin-top: 10px;
+  font-style: italic;
+  color: #fff
+}

@@ -1,5 +1,5 @@
 .header {
-  width: 100vw; /* ocupa toda a largura da tela */
+  width: 100%; /* ocupa toda a largura da tela */
   padding: 2rem;
   text-align: center;
   color: #fff;
@@ -12,15 +12,40 @@
   margin: 0;
 }
 
-.header p {
-  font-size: 1.2rem;
-  margin-top: 0.5rem;
+.header-nav {
+  margin-top: 15px;
+  display: flex;
+  justify-content: center;
+  gap: 25px; 
+  flex-wrap: wrap;
 }
 
+.header-nav a {
+  color: #fff;
+  text-decoration: none;
+  font-weight: bold;
+  padding: 8px 14px; 
+  border-radius: 5px;
+  transition: background-color 0.2s, transform 0.2s;
+}
+
+.header-nav a:hover {
+  background-color: rgba(255, 255, 255, 0.2);
+  transform: scale(1.05);
+}
+
+/* Responsividade */
 @media (max-width: 600px) {
   .header {
     padding: 1rem;
   }
-  .header h1 { font-size: 1.5rem; }
-  .header p { font-size: 1rem; }
+  .header h1 {
+    font-size: 1.5rem;
+  }
+  .header-nav {
+    gap: 15px; 
+  }
+  .header-nav a {
+    padding: 6px 10px; 
+  }
 }
