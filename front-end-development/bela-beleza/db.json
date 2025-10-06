@@ -1,0 +1,21 @@
+{
+  "users": [
+    {
+      "id": 1,
+      "username": "admin",
+      "password": "1234"
+    }
+  ],
+  "clients": [
+    { "id": 1, "name": "Jane Doe", "email": "jane.doe@example.com", "phone": "123-456-7890" },
+    { "id": 2, "name": "John Smith", "email": "john.smith@example.com", "phone": "987-654-3210" }
+  ],
+  "services": [
+    { "id": 1, "name": "Haircut", "price": 25 },
+    { "id": 2, "name": "Manicure", "price": 15 }
+  ],
+  "appointments": [
+    { "id": 1, "clientId": 1, "serviceId": 1, "date": "2025-10-10", "time": "10:00" },
+    { "id": 2, "clientId": 2, "serviceId": 2, "date": "2025-10-11", "time": "14:00" }
+  ]
+}
