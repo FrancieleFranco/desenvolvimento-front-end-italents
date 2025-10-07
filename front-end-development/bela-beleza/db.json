@@ -1,21 +1,100 @@
 {
   "users": [
     {
-      "id": 1,
+      "id": "1",
       "username": "admin",
       "password": "1234"
     }
   ],
   "clients": [
-    { "id": 1, "name": "Jane Doe", "email": "jane.doe@example.com", "phone": "123-456-7890" },
-    { "id": 2, "name": "John Smith", "email": "john.smith@example.com", "phone": "987-654-3210" }
+    {
+      "id": "1",
+      "name": "Maria Silva",
+      "email": "maria.silva@example.com",
+      "phone": "+55 (11) 9 9999-0001"
+    },
+    {
+      "id": "2",
+      "name": "João Pereira",
+      "email": "joao.pereira@example.org",
+      "phone": "+55 (11) 9 9999-0002"
+    },
+    {
+      "id": "3",
+      "name": "Ana Oliveira",
+      "email": "ana.oliveira+teste@example.com",
+      "phone": "+55 (21) 9 9999-0003"
+    },
+    {
+      "id": "4",
+      "name": "Franciele Alves",
+      "email": "franciele.alves@example.com",
+      "phone": "+55 (31) 9 9999-0004"
+    },
+    {
+      "id": "5",
+      "name": "Pedro Rodrigues",
+      "email": "pedro6.rodrigues@example.org",
+      "phone": "+55 (51) 9 9999-0005"
+    }
   ],
   "services": [
-    { "id": 1, "name": "Haircut", "price": 25 },
-    { "id": 2, "name": "Manicure", "price": 15 }
+    { "id": "1", "name": "Corte de cabelo feminino", "price": 80 },
+    { "id": "2", "name": "Corte de cabelo masculino", "price": 50 },
+    { "id": "3", "name": "Escova modeladora", "price": 70 },
+    { "id": "4", "name": "Progressiva / Alisamento", "price": 250 },
+    { "id": "5", "name": "Hidratação capilar", "price": 60 },
+    { "id": "6", "name": "Coloração / Tintura", "price": 150 },
+    { "id": "7", "name": "Mechas / Luzes", "price": 200 },
+    { "id": "8", "name": "Manicure básica", "price": 35 },
+    { "id": "9", "name": "Pedicure básica", "price": 40 },
+    { "id": "10", "name": "Alongamento de unhas (gel/acrílico)", "price": 120 },
+    { "id": "11", "name": "Design de sobrancelhas", "price": 40 },
+    { "id": "12", "name": "Depilação facial", "price": 30 },
+    { "id": "13", "name": "Depilação pernas completas", "price": 80 },
+    { "id": "14", "name": "Maquiagem social", "price": 100 },
+    { "id": "15", "name": "Maquiagem para festa / eventos", "price": 150 },
+    { "id": "16", "name": "Massagem relaxante", "price": 120 },
+    { "id": "17", "name": "Limpeza de pele", "price": 90 },
+    { "id": "18", "name": "Penteados para noivas", "price": 250 },
+    { "id": "19", "name": "Aplicação de Botox capilar", "price": 180 },
+    { "id": "20", "name": "Spa capilar", "price": 200 }
   ],
   "appointments": [
-    { "id": 1, "clientId": 1, "serviceId": 1, "date": "2025-10-10", "time": "10:00" },
-    { "id": 2, "clientId": 2, "serviceId": 2, "date": "2025-10-11", "time": "14:00" }
+    {
+      "id": "1",
+      "clientId": "1",
+      "serviceId": "1",
+      "date": "2025-10-10",
+      "time": "10:00"
+    },
+    {
+      "id": "2",
+      "clientId": "2",
+      "serviceId": "8",
+      "date": "2025-10-11",
+      "time": "14:00"
+    },
+    {
+      "id": "3",
+      "clientId": "1",
+      "serviceId": "8",
+      "date": "2025-10-14",
+      "time": "10:00"
+    },
+    {
+      "id": "4",
+      "clientId": "3",
+      "serviceId": "5",
+      "date": "2025-10-15",
+      "time": "11:30"
+    },
+    {
+      "id": "5",
+      "clientId": "4",
+      "serviceId": "3",
+      "date": "2025-10-16",
+      "time": "13:00"
+    }
   ]
 }

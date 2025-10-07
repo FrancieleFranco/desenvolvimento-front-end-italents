@@ -12,19 +12,36 @@ O projeto utiliza React, Context API para autenticação, Tailwind CSS para esti
 O layout é responsivo, com Header e Footer fixos e área principal centralizada, garantindo uma experiência visual limpa e moderna.
 
 ## Tecnologias Usadas
-- React
-- React Router DOM
-- Tailwind CSS
-- Axios
-- JSON Server
-
+   - React.js  
+   - Tailwind CSS  
+   - React Router DOM  
+   - Axios  
+   - JSON Server  
+   - useContext  
+  
 ## Funcionalidades
-- **Login**: Autenticação de usuário via JSON Server.  
-- **Dashboard / Sobre**: Página principal com informações sobre a empresa.  
-- **Header**: Fixo no topo, exibe o nome da empresa e botão de logout.  
-- **Footer**: Fixo no fundo da página.  
-- Layout responsivo sem scroll horizontal.  
-- **NotFound (404)**: Página exibida para rotas inexistentes.  
+### Login
+- Autenticação de usuário
+- Redireciona para Dashboard após login
+
+### Dashboard
+- Página inicial com resumo dos dados
+
+### ClientsPage
+- CRUD completo de clientes
+- Busca clientes da API (`GET /clients`)
+- Loading rosa enquanto os dados carregam
+
+### ServicesPage
+- CRUD completo de serviços
+- Busca serviços da API (`GET /services`)
+- Loading rosa durante carregamento
+
+### Appointments
+- CRUD completo de agendamentos
+- Busca agendamentos, clientes e serviços (`GET /appointments`, `/clients`, `/services`)
+- Loading rosa enquanto carrega
+
 
 # Passos para execução local
 1. Clonar o repositório:  

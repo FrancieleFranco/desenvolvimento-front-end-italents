@@ -3,11 +3,18 @@ import { Routes, Route } from "react-router-dom";
 import PrivateRoute from "../components/privateRoute/PrivateRoute";
 import Login from "../pages/login/Login";
 import Dashboard from "../pages/dashboard/Dashboard";
+import ClientsPage from "../pages/clientsPage/ClientsPage";
+import ServicesPage from "../pages/servicesPage/ServicesPage";
+import Appointments from "../pages/appointments/Appointments";
+import NotFound from "../pages/notFound/NotFound";
 
 export default function AppRoutes() {
   return (
     <Routes>
+      {/* Rota pública */}
       <Route path="/login" element={<Login />} />
+
+      {/* Rotas privadas */}
       <Route
         path="/"
         element={
@@ -17,17 +24,30 @@ export default function AppRoutes() {
         }
       />
       <Route
-        path="/dashboard"
+        path="/clients"
         element={
           <PrivateRoute>
-            <Dashboard />
+            <ClientsPage />
           </PrivateRoute>
         }
       />
       <Route
-        path="*"
-        element={<h2 className="text-center mt-10">Página não encontrada</h2>}
+        path="/services"
+        element={
+          <PrivateRoute>
+            <ServicesPage />
+          </PrivateRoute>
+        }
       />
+      <Route
+        path="/appointments"
+        element={
+          <PrivateRoute>
+            <Appointments />
+          </PrivateRoute>
+        }
+      />
+      <Route path="*" element={<NotFound />} />
     </Routes>
   );
 }
