@@ -1,8 +1,19 @@
 # Projeto 16 - Bela Beleza
+### Login
 ![Tela do Projeto - Login](src/assets/images/login.jpg)
-![Tela do Projeto - Dashboard](src/assets/images/dashboard.jpg)
 
-Este projeto foi desenvolvido como parte da **Entrega 2** do curso Desenvolvimento Front-End com React - iTalents.
+### Sobre
+![Tela do Projeto - Dashboard](src/assets/images/dashboard.jpg)
+### Clientes
+![ Tela do projeto Clientes](src/assets/images/clients.jpg)
+
+### Serviços
+![Tela do projeto Serviços](src/assets/images/servicepage.jpg)
+
+### Agendamentos
+![Tela do projeto Agendamentos](src/assets/images/appointments.jpg)
+
+Este projeto foi desenvolvido como parte da **Entrega final** do curso Desenvolvimento Front-End com React - iTalents.
 
 ## Descrição
 O **Bela Beleza** é um sistema de demonstração para gerenciamento de uma empresa de beleza, com foco em autenticação e visualização de informações da empresa.  
