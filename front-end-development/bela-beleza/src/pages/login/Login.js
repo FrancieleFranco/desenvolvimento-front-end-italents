@@ -19,7 +19,7 @@ export default function Login() {
       await login(username, password);
       navigate("/", { replace: true }); // redireciona para Dashboard
     } catch (err) {
-      setError("Usuário ou senha inválidos, merdaaaaaaaaaa");
+      setError("Usuário ou senha inválidos");
     }
   };
 
